@@ -13,8 +13,8 @@ body {
   height: 60%;
   width: 50%;
   border-bottom-left-radius: 50px;
-  right: 0;
-  top: 0;
+  right: 0%;
+  top: 0%;
   background-color: hsl(207, 33%, 95%);
   z-index: -1;
 }
