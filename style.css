@@ -149,3 +149,80 @@ p {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+/************responsive*****************/
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 38px;
+    width: 100%;
+  }
+  .p2 {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .navbar {
+    justify-content: space-between;
+    align-items: center;
+    margin: 10% 6%;
+  }
+  .nav-item {
+    display: none;
+  }
+  #icon {
+    display: block;
+  }
+  #icon:hover {
+    transform: scale(1.1);
+  }
+  .container {
+    margin: 10% 0% 10% 6%;
+    flex-direction: column-reverse;
+  }
+  .left-portion {
+    flex: 100%;
+  }
+  .p1 {
+    margin-top: 10%;
+  }
+  .p1 span {
+    font-size: 16px;
+    padding: 0px 4px 2px 7px;
+  }
+  h1 {
+    font-size: 37px;
+  }
+  .p2 {
+    width: 85%;
+  }
+  .p3 {
+    font-size: 16px;
+  }
+  .right-portion {
+    flex: 100%;
+    margin-bottom: 15%;
+  }
+  /******************navbar-responsive***************/
+  .navbar.responsive .nav-item {
+    display: block;
+    position: absolute;
+    width: 88%;
+    top: 15%;
+    left: 6%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 3% 5%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px -15px hsl(207, 33%, 45%);
+  }
+  .navbar.responsive .dot {
+    display: none;
+  }
+  .navbar.responsive button {
+    padding: 5% 0%;
+    width: 100%;
+    font-size: 19px;
+  }
+  .navbar.responsive .login-button {
+    margin: 0%;
+    border-top: 1px solid hsl(231, 7%, 65%);
+  }
+}
